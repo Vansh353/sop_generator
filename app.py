@@ -7,8 +7,8 @@ from openai import OpenAI
 
 
 # Set your OpenAI API key
-openai.api_key = "sk-proj-wE9AwaNvcI2DRMreNtjOT3BlbkFJteV3XJMo2Z2MHXgme0vU"
-client = OpenAI(api_key=openai.api_key)
+
+client = OpenAI(api_key="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")
 def generate_sop(inputs):
 
     # Construct the messages for the Chat API
