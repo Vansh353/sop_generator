@@ -2,13 +2,16 @@ import time
 import streamlit as st
 import openai
 from openai import OpenAI
+import os
+from dotenv import load_dotenv
+
+load_dotenv()  
 
 
+# Set your OpenAI API key   
 
-
-# Set your OpenAI API key
-
-client = OpenAI(api_key="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")
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))  
+print(os.getenv("OPENAI_API_KEY"))
 def generate_sop(inputs):
 
     # Construct the messages for the Chat API
