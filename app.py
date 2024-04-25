@@ -7,7 +7,7 @@ from openai import OpenAI
 
 
 # Set your OpenAI API key
-openai.api_key = "sk-proj-4B63wto8ZS02W779fHV1T3BlbkFJVaxNG5Ta7J0l8SJrw8Oy"
+openai.api_key = "sk-proj-8RORbiF7yWVwoLopwBnwT3BlbkFJAsL7tb3ph1XRFn15ea9j"
 client = OpenAI(api_key=openai.api_key)
 def generate_sop(inputs):
 
