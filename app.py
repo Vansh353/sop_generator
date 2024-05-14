@@ -3,14 +3,11 @@ import streamlit as st
 import openai
 from openai import OpenAI
 import os
-from dotenv import load_dotenv
-
-load_dotenv()  
 
 
 # Set your OpenAI API key   
 
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))  
+client = OpenAI(api_key="sk-proj-2jxTNAsE2MYWq4UQdnV8T3BlbkFJBlDZZvZfj5Bf6hE6iGro")  
 print(os.getenv("OPENAI_API_KEY"))
 def generate_sop(inputs):
 
